@@ -1,0 +1,52 @@
+* {
+  padding: none;
+  margin: none;
+
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 25px;
+  
+  
+}
+.nav-links a {
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.nav-links a:hover {
+  color:brown;
+}
+
+
+.span {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(132, 27, 27);
+  background-color: beige;
+  display: block;
+  text-align: center;
+}
+.div {
+  display: flex;
+  text-align: end;
+
+}
+
+.container {
+  
+  text-align: center;
+  /* display: flex; */
+  /* display: block; */
+  display: inline-block;
+  
+}
+.container section {
+  border: solid 1px black;
+  border-radius: 33px;
+}
+.btn {
+  
+}
