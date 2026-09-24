@@ -1,6 +1,7 @@
 * {
   padding: none;
   margin: none;
+  box-sizing: border-box;
 
 }
 .nav-links {
@@ -36,17 +37,116 @@
 }
 
 .container {
-  
+  justify-content: center;
   text-align: center;
-  /* display: flex; */
-  /* display: block; */
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  /* display: block;
+  display: inline-block; */
   
 }
-.container section {
+.container .display-check {
+
   border: solid 1px black;
   border-radius: 33px;
 }
 .btn {
-  
+  padding: 16px;
+  background: black;
+  color: white;
+  border-radius: 25px;
+}
+.box-sizing-test {
+  align-items: center;
+}
+.box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+.image-left {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.test-overflow p {
+  box-sizing: border-box;
+  height: 100px;
+  width: 300px;
+  overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.static {
+    position: static;
+    background-color: lightgray;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.relative {
+    position: relative;
+    left: 30px;
+    background-color: lightblue;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.parent {
+    position: relative;
+    height: 150px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: lightgreen;
+    padding: 15px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    padding: 15px;
+}
+
+.fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+}
+
+.content {
+    height: 1000px;
+    background-color: #eeeeee;
+    padding: 20px;
 }
